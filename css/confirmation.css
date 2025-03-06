@@ -1,0 +1,78 @@
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f2f5, #e2e8f0);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Conteneur principal */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Entête */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #007bff;
+}
+
+/* Section de confirmation */
+.confirmation {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.confirmation h2 {
+  font-size: 2em;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.order-details {
+  margin-bottom: 20px;
+}
+
+.order-details p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.order-details strong {
+  color: #333;
+}
+
+/* Bouton retour */
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

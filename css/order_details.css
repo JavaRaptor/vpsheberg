@@ -1,0 +1,94 @@
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Entête */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header nav ul li {
+  margin: 0;
+}
+
+header nav .button {
+  background-color: white;
+  color: #0073e6;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+header nav .button:hover {
+  background-color: #005bb5;
+  color: white;
+}
+
+/* Main Content */
+main {
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Order Details Section */
+.order-details {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.order-details h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.order-details p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.order-details p strong {
+  font-weight: bold;
+}

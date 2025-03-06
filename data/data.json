@@ -1,0 +1,136 @@
+{
+    "utilisateurs": [
+        {
+            "id": 1,
+            "nom": "Jean Dupont",
+            "email": "jean.dupont@example.com",
+            "role": "client"
+        },
+        {
+            "id": 2,
+            "nom": "Marie Curie",
+            "email": "marie.curie@example.com",
+            "role": "client"
+        },
+        {
+            "id": 3,
+            "nom": "S",
+            "email": "s@s",
+            "password": "$2y$10$SgEf5Y1HywUWIyXYHfYp..ifP2zXHVkMfqwXSvt7gZu5ivCHmpGm6",
+            "role": "admin"
+        },
+        {
+            "id": 4,
+            "nom": "f",
+            "email": "f@f",
+            "password": "$2y$10$1GhGzQSuf0O7bn5yj0LmZ.E2lpdqqRrjyKVbQ0Xopo3HA2HeCZlv.",
+            "role": "client"
+        }
+    ],
+    "plans_hebergement": [
+        {
+            "id": 1,
+            "nom_plan": "H\u00e9bergement Basic",
+            "prix": 4.99,
+            "details": "1 vCore 3.50Ghz, 1Go RAM DDR4, 20Go Stockage, 1 Backup \/ J"
+        },
+        {
+            "id": 2,
+            "nom_plan": "H\u00e9bergement Standard",
+            "prix": 7.99,
+            "details": "2 vCore 3.50Ghz, 2Go RAM DDR4, 40Go Stockage, 5 Backup \/ J"
+        },
+        {
+            "id": 3,
+            "nom_plan": "H\u00e9bergement Premium",
+            "prix": 12.99,
+            "details": "2 vCore 3.50Ghz, 3Go RAM DDR4, 80Go Stockage, 15 Backup \/ J"
+        }
+    ],
+    "commandes": [
+        {
+            "id": "1",
+            "user_id": "1",
+            "plan_id": "2",
+            "date_commande": "2024-08-17 10:00:00",
+            "status": "Compl\u00e9t\u00e9"
+        },
+        {
+            "id": "66c102cf5df1f",
+            "user_id": "3",
+            "plan_id": "1",
+            "date_commande": "2024-08-17 22:06:39",
+            "status": "Compl\u00e9t\u00e9"
+        },
+        {
+            "id": "66c1077203166",
+            "user_id": 3,
+            "plan_id": "2",
+            "date_commande": "2024-08-17 22:26:26",
+            "status": "Compl\u00e9t\u00e9"
+        },
+        {
+            "id": "66c10d5555a89",
+            "user_id": 3,
+            "plan_id": "1",
+            "date_commande": "2024-08-17 22:51:33",
+            "status": "Compl\u00e9t\u00e9"
+        },
+        {
+            "id": "66c10fe4c4ac6",
+            "user_id": 3,
+            "plan_id": "1",
+            "date_commande": "2024-08-17 23:02:28",
+            "status": "Compl\u00e9t\u00e9"
+        },
+        {
+            "id": "66c113cff130f",
+            "user_id": 3,
+            "plan_id": "1",
+            "date_commande": "2024-08-17 23:19:11",
+            "status": "En attente"
+        },
+        {
+            "id": "66c128983a445",
+            "user_id": 3,
+            "plan_id": "1",
+            "date_commande": "2024-08-18 00:47:52",
+            "status": "En attente"
+        },
+        {
+            "id": "66c128a482534",
+            "user_id": 3,
+            "plan_id": "1",
+            "date_commande": "2024-08-18 00:48:04",
+            "status": "En attente"
+        },
+        {
+            "id": "66c128c79df14",
+            "user_id": 3,
+            "plan_id": "1",
+            "date_commande": "2024-08-18 00:48:39",
+            "status": "Compl\u00e9t\u00e9"
+        },
+        {
+            "id": "66c1319c50e66",
+            "user_id": 3,
+            "plan_id": "3",
+            "date_commande": "2024-08-18 01:26:20",
+            "status": "En attente"
+        },
+        {
+            "id": "66c131a15fca7",
+            "user_id": 3,
+            "plan_id": "2",
+            "date_commande": "2024-08-18 01:26:25",
+            "status": "En attente"
+        },
+        {
+            "id": "67c9dac69030f",
+            "user_id": 4,
+            "plan_id": "1",
+            "date_commande": "2025-03-06 18:26:30",
+            "status": "En attente"
+        }
+    ]
+}

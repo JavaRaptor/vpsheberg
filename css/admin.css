@@ -1,0 +1,135 @@
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Entête */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header nav ul li {
+  margin: 0;
+}
+
+header nav .button {
+  background-color: white;
+  color: #0073e6;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+header nav .button:hover {
+  background-color: #005bb5;
+  color: white;
+}
+
+/* Main Content */
+main {
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+table thead th {
+  padding: 15px;
+  text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tbody td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Status Form */
+.status-form {
+  display: flex;
+  align-items: center;
+}
+
+.status-select {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.update-button {
+  padding: 7px 15px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
